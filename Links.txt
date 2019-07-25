@@ -1,0 +1,8 @@
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2651214/#__sec3title
+
+https://ropensci.org/tutorials/rentrez_tutorial/
+
+https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html
+
+https://cran.r-project.org/web/packages/rentrez/rentrez.pdf
+
