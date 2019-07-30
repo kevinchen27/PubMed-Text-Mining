@@ -6,9 +6,6 @@ library(dplyr)
 pubmed_search <- entrez_search(db = "pubmed", term = "Case Reports[Filter] AND cardiovascular disease AND English[lang] AND 2009:2019[PDat])", retmax = 792711, use_history = TRUE)
 recs2 <- list()
 recs <- list()
-c = 1
-
-
 
 #save summaries of 10000 pubmed papers
 for(i in seq(1,10000,100)){
@@ -20,11 +17,8 @@ for(i in seq(1,10000,100)){
 article_titles <- c()
 
 for(i in 1:10000){
-  
   article_titles[i] <- recs2[[i]]$title 
-  
 }
-
 
 #find occurences of each word in titles
 article_titles <- article_titles %>% str_to_lower()
